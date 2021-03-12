@@ -20,4 +20,8 @@ public class Stack <K> {
     public void list(){
         this.linkedList.printMyNodes();
     }
+    public boolean isEmpty(){
+        this.linkedList.isEmpty_LinkedList();
+        return true;
+    }
 }

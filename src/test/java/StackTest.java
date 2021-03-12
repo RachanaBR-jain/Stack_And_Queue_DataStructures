@@ -24,9 +24,9 @@ public class StackTest {
         stack.pop();
         stack.pop();
         stack.pop();
-        INode peak = stack.peak();
-        System.out.println(" After pop "+ peak );
-        Assertions.assertEquals(null, peak);
+        boolean res=stack.isEmpty();
+        Assertions.assertTrue(res);
+
     }
 
 

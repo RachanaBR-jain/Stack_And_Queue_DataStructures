@@ -7,7 +7,13 @@ public class LinkedList {
         this.head = null;
         this.tail = null;
     }
-
+    public boolean isEmpty_LinkedList(){
+        if(head==null)
+        {
+            return true;
+        }
+        return false;
+    }
     public void insertAtFirst(INode newNode) {
         if (this.tail == null) {
             this.tail = newNode;
