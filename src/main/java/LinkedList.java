@@ -20,6 +20,7 @@ public class LinkedList {
         }
         if (this.head == null) {
             this.head = newNode;
+
         } else {
             INode tempNode = this.head;
             this.head = newNode;
